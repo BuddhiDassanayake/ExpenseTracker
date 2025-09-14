@@ -22,4 +22,5 @@ public class UIController {
         expenseService.addExpense(description, amount);
         return "redirect:/";
     }
+
 }
